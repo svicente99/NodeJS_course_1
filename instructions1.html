@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 5.1.6.2 (Linux)"/>
+	<meta name="created" content="2020-01-26T23:16:29.042275675"/>
+	<meta name="changed" content="2020-01-26T23:18:10.672682498"/>
+	<style type="text/css">
+		@page { margin: 2cm }
+		p { margin-bottom: 0.25cm; line-height: 120% }
+		a:link { so-language: zxx }
+	</style>
+</head>
+<body lang="pt-BR" dir="ltr">
+<p><font size="4" style="font-size: 14pt"><b>INSTRUCTIONS</b></font></p>
+<p><br/>
+<br/>
+
+</p>
+<p>In this assignment you will continue the exploration of Node
+modules, Express and the REST API. You will design two new express
+routers to support REST API end points for promotions and leadership.</p>
+<p style="margin-bottom: 0cm">Step-By-Step Assignment Instructions</p>
+<div id="instructions-container-1580091348618" dir="ltr">
+	<p><strong>Assignment Overview</strong></p>
+	<p>At the end of this assignment, you should have completed the
+	following tasks to update the server:</p>
+	<ul>
+		<li/>
+<p style="margin-bottom: 0cm">Created a Node module using
+		Express router to support the routes for the dishes REST API.</p>
+		<li/>
+<p style="margin-bottom: 0cm">Created a Node module using
+		Express router to support the routes for the promotions REST API.</p>
+		<li/>
+<p>Created a Node module using Express router to support the
+		routes for the leaders REST API.</p>
+	</ul>
+	<p><strong>Assignment Requirements</strong></p>
+	<p>The REST API for our Angular and Ionic/Cordova application that
+	we built in the previous courses requires us to support the
+	following REST API end points:</p>
+	<ol>
+		<li/>
+<p style="margin-bottom: 0cm">http://localhost:3000/dishes/:dishId</p>
+		<li/>
+<p style="margin-bottom: 0cm"><a href="http://localhost:3000/promotions" target="_blank">http://localhost:3000/promotions</a>
+		and http://localhost:3000/promotions/:promoId</p>
+		<li/>
+<p><a href="http://localhost:3000/leaders" target="_blank">http://localhost:3000/leaders</a>
+		and http://localhost:3000/leaders/:leaderId</p>
+	</ol>
+	<p>We need to support GET, PUT, POST and DELETE operations on each
+	of the endpoints mentioned above, including supporting the use of
+	route parameters to identify a specific promotion and leader. We
+	have already constructed the REST API for the dishes route in the
+	previous exercise.</p>
+	<p>This assignment requires you to complete the following <strong>three</strong>
+	tasks. Detailed instructions for each task are given below.</p>
+	<p><strong>Task 1</strong></p>
+	<p>In this task you will create a separate Node module implementing
+	an Express router to support the REST API for the dishes. You can
+	reuse all the code that you implemented in the previous exercise. To
+	do this, you need to complete the following:</p>
+	<ul>
+		<li/>
+<p>Update the Node module named <em>dishRouter.js</em> to
+		implements the Express router for the /dishes/:dishId REST API end
+		point.</p>
+	</ul>
+	<p><strong>Task 2</strong></p>
+	<p>In this task you will create a separate Node module implementing
+	an Express router to support the REST API for the promotions. To do
+	this, you need to complete the following:</p>
+	<ul>
+		<li/>
+<p style="margin-bottom: 0cm">Create a Node module named
+		<em>promoRouter.js</em> that implements the Express router for the
+		/promotions and /promotions/:promoId REST API end points.</p>
+		<li/>
+<p>Require the Node module you create above within your
+		Express application and mount it on the /promotions route.</p>
+	</ul>
+	<p><strong>Task 3</strong></p>
+	<p>In this task you will create a separate Node module implementing
+	an Express router to support the REST API for the leaders. To do
+	this, you need to complete the following:</p>
+	<ul>
+		<li/>
+<p style="margin-bottom: 0cm">Create a Node module named
+		<em>leaderRouter.js</em> that implements the Express router for the
+		/leaders and /leaders/:leaderId REST API end points.</p>
+		<li/>
+<p>Require the Node module you create above within your
+		Express application and mount it on the /leaders route.</p>
+	</ul>
+</div>
+<p>Review criteria</p>
+<p>Upon completion of the assignment, your submission will be
+reviewed based on the following criteria:</p>
+<p><strong>Task 1:</strong></p>
+<ul>
+	<li/>
+<p>The REST API supports GET, PUT, POST and DELETE operations
+	on /dishes/:dishId end point.</p>
+</ul>
+<p><strong>Task 2:</strong></p>
+<ul>
+	<li/>
+<p style="margin-bottom: 0cm">The new Node module, <em>promoRouter</em>
+	is implemented and used within your server to support the
+	/promotions end point.</p>
+	<li/>
+<p>The REST API supports GET, PUT, POST and DELETE operations
+	on /promotions and GET, PUT, POST and DELETE operations on
+	/promotions/:promoId end points.</p>
+</ul>
+<p><strong>Task 3:</strong></p>
+<ul>
+	<li/>
+<p style="margin-bottom: 0cm">The new Node module,
+	<em>leaderRouter</em> is implemented and used within your server to
+	support the /leaders end point.</p>
+	<li/>
+<p>The REST API supports GET, PUT, POST and DELETE operations
+	on /leadership and GET, PUT, POST and DELETE operations on
+	/leaders/:leaderId end points.</p>
+</ul>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+</body>
+</html>
