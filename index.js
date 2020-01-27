@@ -4,7 +4,7 @@
  *              Node Modules, Express and REST API
  *  Language..: Javascript
  *  Author....: Sergio Vicente
- *  Date......: Jan. 276h 2020
+ *  Date......: Jan. 26th 2020
  */
 
 
